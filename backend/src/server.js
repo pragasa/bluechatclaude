@@ -76,10 +76,10 @@ const loadRoute = (path, name) => {
   }
 };
 
-const authRoutes = loadRoute('./auth', 'auth');
+const authRoutes = loadRoute('./routes/auth', 'auth');
 const userRoutes = loadRoute('./routes/users', 'users');
 const chatRoutes = loadRoute('./routes/chats', 'chats');
-const messageRoutes = loadRoute('./messages', 'messages');
+const messageRoutes = loadRoute('./routes/messages', 'messages');
 const groupRoutes = loadRoute('./routes/groups', 'groups');
 const fileRoutes = loadRoute('./routes/files', 'files');
 

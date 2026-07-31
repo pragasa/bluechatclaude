@@ -7,7 +7,7 @@
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
-const { User } = require('./index');
+const { User } = require('../models');
 
 // Validation middleware
 const validateEmail = (email) => {

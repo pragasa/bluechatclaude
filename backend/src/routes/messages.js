@@ -8,7 +8,7 @@
 
 const express = require('express');
 const router = express.Router();
-const { Message, Chat, Group, User } = require('./index');
+const { Message, Chat, Group, User } = require('../models');
 const jwt = require('jsonwebtoken');
 
 // Middleware to verify JWT
